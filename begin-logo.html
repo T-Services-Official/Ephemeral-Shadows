@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body, html {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      overflow: hidden;
+    }
+
+    @keyframes fade {
+      0% {
+        opacity: 0;
+      }
+      50% {
+        opacity: 1;
+      }
+      100% {
+        opacity: 0;
+      }
+    }
+
+    .logo-container {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+    }
+
+    .fade-logo {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      animation: fade 6s infinite; /* Adjust the animation duration as needed */
+    }
+  </style>
+</head>
+<body>
+  <div class="logo-container">
+    <img class="fade-logo" src="https://i.ibb.co/XjfbP34/Check-out-my-new-logo-made-on-Looka-Google-Chrome-10-28-2023-12-05-15-PM.png" alt="Fade Logo">
+  </div>
+</body>
+</html>
